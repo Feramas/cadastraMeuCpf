@@ -69,28 +69,28 @@ public class UsuarioGUI extends JFrame {
 		
 		textField = new JTextField();
 		panel.add(textField);
-		textField.setColumns(10);
+		textField.setColumns(45);
 		
 		JLabel lblCpf = new JLabel("CPF:");
 		panel.add(lblCpf);
 		
 		textField_1 = new JTextField();
 		panel.add(textField_1);
-		textField_1.setColumns(10);
+		textField_1.setColumns(45);
 		
-		JLabel lblEmail = new JLabel("Email:");
+		JLabel lblEmail = new JLabel("\nEmail:");
 		panel.add(lblEmail);
 		
 		textField_2 = new JTextField();
 		panel.add(textField_2);
-		textField_2.setColumns(10);
+		textField_2.setColumns(45);
 		
-		JLabel lblTelefone = new JLabel("Telefone:");
+		JLabel lblTelefone = new JLabel("\nTelefone:");
 		panel.add(lblTelefone);
 		
 		textField_3 = new JTextField();
 		panel.add(textField_3);
-		textField_3.setColumns(10);
+		textField_3.setColumns(40);
 		
 		JButton btnCadastrar = new JButton("Cadastrar");
 		btnCadastrar.addActionListener(new ActionListener() {
